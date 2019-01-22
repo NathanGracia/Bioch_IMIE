@@ -1,0 +1,143 @@
+#titre{background-image:url("https://am-a.akamaihd.net/image?quality=preserve&f=https://lolstatic-a.akamaihd.net/frontpage/apps/prod/playnow-global/fr_FR/cbe4e8d0768d5d7a7673d095daec915fe2f828ea/assets/img/cover-1.jpg");
+}
+#textetitre{background-color: rgb(255,255,255,0.7);
+width: 15%;
+height: 5%;
+border-radius: 10%;}
+body{
+	font-family: sans-serif;
+background-color: grey
+}
+
+
+;}
+
+.header{
+    height:200px;
+    text-align:center;
+    line-height:200px;
+    background:#faf2;
+}
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {margin-left: 10%;
+    float: left;
+     color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 120%
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+#atom{
+	position: absolute;
+	max-width: 2%;
+	height: auto;
+	margin-top: -0.5%;
+	margin-left:-3%;
+}
+.active {
+    background-color: #4CAF50;
+}
+#bloc1{
+	/*background-image: url(https://images.ecosia.org/F0GGwOM161dztUXGKEXHd7pWGks=/0x390/smart/http%3A%2F%2Fwww.geminoidi.com%2Fimages%2Ftextures%2Fsnow_texture.jpg);
+	*/width: 75%;
+	height: 30%;
+	margin: auto;
+	margin-top: 7%;
+	padding: 2%;
+}
+
+#blanc{
+	position: absolute;
+	background-color: white;
+	width: 50%;
+	height: 40%;
+	margin: auto;
+	margin-top: -23%;
+	margin-left: 22.5%;
+	padding: 2%;
+	opacity: 0.8;
+	z-index: -1;
+	border-radius: 2%;
+}
+
+#logoLoL{
+	max-width: 30%;
+	height: auto;
+
+}
+#titleLoL{
+	font-size: 180%
+}
+#playername a:link{
+	color: black;
+	text-decoration: none;
+	font-size: 130%
+}
+#playername a:visited{
+	color: black;
+    text-decoration: none;
+}
+#playername a:hover{
+	color: grey;
+    text-decoration: none;
+}
+p#playername{
+	padding-left: : 10%;
+}
+a#player{
+	padding: 1%;
+}
+#hero-vid{
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	
+	z-index: -1;
+}
+.bouton1 {
+  background-color:#e7e7e7;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 12%;
+  border: 4px solid #866C03;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.bouton1:hover {
+  background-color: grey; 
+  border: 4px solid #866C03;
+  color: white;
+		box-shadow: 0 12px 16px 0 rgba(255,255,255,0.24), 0 17px 50px 0 rgba(255,255,255,0.19);
+}
+	/* PAGE STATISTIQUES -------------------------------------------------------------------------------------------------------------------*/
+
+#blocbdd{
+	background-color: white;
+	color: black;
+	z-index: 2;
+	width: 20%
+}

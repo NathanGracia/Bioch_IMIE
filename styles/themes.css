@@ -1,0 +1,532 @@
+#titre{background-image:url("https://am-a.akamaihd.net/image?quality=preserve&f=https://lolstatic-a.akamaihd.net/frontpage/apps/prod/playnow-global/fr_FR/cbe4e8d0768d5d7a7673d095daec915fe2f828ea/assets/img/cover-1.jpg");
+ }
+#textetitre{background-color: rgb(255,255,255,0.7);
+width: 15%;
+height: 5%;
+border-radius: 10%;}
+body{
+    font-family: sans-serif;
+    background-image:url("http://www.desktopimages.org/pictures/2014/0310/1/orig_60339.jpg");
+    background-size: cover;
+    }
+
+.header{
+    height:200px;
+    text-align:center;
+    line-height:200px;
+    background:#faf2;
+}
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {margin-left: 10%;
+    float: left;
+     color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 120%
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+#atom{
+	position: absolute;
+	max-width: 2%;
+	height: auto;
+	margin-top: -0.5%;
+	margin-left:-3%;
+}
+.active {
+    background-color: #4CAF50;
+}
+#bloc1{
+	/*background-image: url(https://images.ecosia.org/F0GGwOM161dztUXGKEXHd7pWGks=/0x390/smart/http%3A%2F%2Fwww.geminoidi.com%2Fimages%2Ftextures%2Fsnow_texture.jpg);
+	*/width: 75%;
+	height: 30%;
+	margin: auto;
+	margin-top: 7%;
+	padding: 2%;
+}
+
+#blanc{
+	position: absolute;
+	background-color: white;
+	width: 50%;
+	height: 40%;
+	margin: auto;
+	margin-top: -23%;
+	margin-left: 22.5%;
+	padding: 2%;
+	opacity: 0.8;
+	z-index: -1;
+	border-radius: 2%;
+}
+
+#logoLoL{
+	max-width: 30%;
+	height: auto;
+
+}
+#titleLoL{
+	font-size: 180%
+}
+#playername a:link{
+	color: black;
+	text-decoration: none;
+	font-size: 130%
+}
+#playername a:visited{
+	color: black;
+    text-decoration: none;
+}
+#playername a:hover{
+	color: grey;
+    text-decoration: none;
+}
+p#playername{
+	padding-left: : 10%;
+}
+a#player{
+	padding: 1%;
+}
+#hero-vid{
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	
+	z-index: -1;
+}
+.bouton1 {
+  background-color:#e7e7e7;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 12%;
+  border: 4px solid #866C03;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.bouton1:hover {
+  background-color: grey; 
+  border: 4px solid #866C03;
+  color: white;
+		box-shadow: 0 12px 16px 0 rgba(255,255,255,0.24), 0 17px 50px 0 rgba(255,255,255,0.19);
+}
+	/* PAGE STATISTIQUES -------------------------------------------------------------------------------------------------------------------*/
+
+#blocbdd{
+	background-color: white;
+	color: black;
+	z-index: 2;
+	width: 20%
+}
+
+
+/* PAGE LES JOUEURS */
+
+div#titre_presentation_joueurs{
+    font-size: 50px;
+    font-weight: sans-serif;
+    color: #F6E497;
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 3%;
+    
+}
+
+img#entetesite {
+   position: absolute;
+}
+
+img#foxsinbaan {
+  position: absolute;
+  padding-top: 21%;
+  margin-left: 12%;
+}
+
+img#amestyale {
+  padding-top: 18%;
+  margin-left: 28.5%;
+  position: absolute;
+}
+
+img#deuskiwi {
+  padding-top: 13.5%;
+  margin-left: 45.2%; 
+  position: absolute;
+  border-image: solid;
+  border-color : rgb(46,139,87);
+  border-width: 100px;  
+}
+
+img#nicodenv {
+  padding-top:17%;
+  margin-left: 61.7%;
+  position: absolute;
+  border-radius: 4%;
+  border-image: solid;
+  border-color: #4CAF50;
+  border-width: 10px;
+}
+
+img#buffaloo {
+  padding-top: 20%;
+  margin-left: 79%;
+  position: relative; 
+}
+
+div#foxsinbaan{
+    position: absolute;
+    padding-top: 16.5%;
+    margin-left: 12.3%;
+    font-size: 22px;
+    color: #F6E497;
+}
+    
+div#amestyale{
+    position: absolute;
+    padding-top: 13.5%;
+    margin-left: 29.7%;
+    font-size: 22px;
+    color: #F6E497;
+}
+    
+div#deuskiwi{
+    position: absolute;
+    padding-top: 9.5%;
+    margin-left: 46.7%;
+    font-size: 22px;
+    color: #F6E497;
+}
+    
+div#nicodenv{
+    position: absolute;
+    padding-top: 13%;
+    margin-left: 63.3%;
+    font-size: 22px;
+    color: #F6E497;
+}
+    
+div#buffaloo{
+    position: absolute;
+    padding-top: 15.8%;
+    margin-left: 80.2%;
+    font-size: 22px;
+    color: #F6E497;
+}
+
+/* Page Parcour */
+
+
+/* La Grosse Ligue*/
+
+img#grosseligue {
+    margin-top: 11.5%;
+    margin-left: 0%;
+    width: 40%;
+    height: 40%;
+
+}
+
+div#encours {
+    position: absolute;
+    color: #F6E497;
+    margin-top: -24%;
+    margin-left: 84%;
+}
+div#text_grosseligue{
+    width: 50%;
+    background-color:rgb(75, 12, 107, 0.7);
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    margin-left: 41%;
+    margin-top: 5.5%;
+    color: white; 
+    padding-bottom: 3%;
+    padding-top: 3%;  
+    }
+
+div#twitter1 {
+    margin-left: -45%;
+    
+}
+
+img#logo_twitter1 {
+    position: absolute;
+    width: 10%;
+    height: 17%;
+    margin-left: -41%;
+    margin-top: -8.5%;
+}
+
+div#toornament {
+    position: absolute;
+    margin-left: 75%;
+    
+}
+
+img#logo_toornament {
+    position: absolute;
+    width: 8%;
+    height: 14%;
+    margin-left: 15%;
+    margin-top: -8%;
+}
+
+
+/* La Nantesarena */
+
+img#nantesarena {
+    position: absolute; 
+    margin-top: 36%;
+    margin-left: -32%;
+    width: 25%;
+    height: 60%;
+    padding-top: 8%;
+
+}
+
+div#text_nantesarena{
+    width: 50%;
+    background-color:rgb(75, 12, 107, 0.7);
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    margin-left: 41%;
+    margin-top: 18%;
+    color: white; 
+    padding-bottom: 3%;
+    padding-top: 3%;  
+    }
+
+div#twitter2 {
+    margin-left: -45%;
+    margin-top: 
+}
+
+img#logo_twitter2 {
+    position: absolute;
+    width: 10%;
+    height: 17%;
+    margin-left: -40%;
+    margin-top: -8%;
+}
+
+/* Insalan */
+
+img#insalan {
+    position: absolute; 
+    margin-top: 83.5%;
+    margin-left: -34%;
+    width: 30%;
+    height: 30%;
+    padding-top: 8%;
+}
+
+div#text_insalan{
+    width: 50%;
+    background-color:rgb(75, 12, 107, 0.7);
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    margin-left: 41%;
+    margin-top: 55%;
+    color: white; 
+    padding-bottom: 3%;
+    padding-top: 3%;  
+    }
+
+div#twitter3 {
+    margin-left: -45%;
+    margin-top: 
+}
+img#logo_twitter3 {
+    position: absolute;
+    width: 10%;
+    height: 17%;
+    margin-left: -40%;
+    margin-top: -8%;
+}
+
+/* Page Matchs */
+button#creation_match{
+    margin-left: 90%;
+    color: white;
+    background-color: black;
+    border-color: black; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+div#titre_tournoi{
+    margin-left: 20%;
+    color: #F6E497;
+}
+
+div#titre_scrim{
+    
+    float: right;
+    margin-right: 20%;  
+    color: #F6E497; 
+}
+
+img#logo_grosseligue {
+    margin-left: 8.5%
+}
+
+img#lol {
+    float: right;
+    margin-right: 10%;
+    padding-top: 1%;
+    width: 25%;
+    height: 25%;
+}
+
+/* Page Créations Matchs */
+
+table#bloc_creationmatch{
+    text-align: center;
+    background-color: #1F1D1A;
+    color: white; 
+    margin: auto; 
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+td{
+    padding-top: 2%;
+   
+}
+
+th{
+    padding-top: 2%;
+    text-align: center;
+    
+}
+
+/* Page Grosse ligue */
+
+img#grosseligue_gauche {
+    margin-left: -8%;
+    width: 25%;
+    height: 25%;
+}
+
+img#grosseligue_droite {
+    position: absolute;
+    margin-left: 65%;
+    width: 25%;
+    height: 25%;
+}
+
+div#titre_grosseligue{
+    margin-left: 40%;
+    position: absolute;
+    color: #F6E497;
+}
+
+div#nom_equipe {
+    margin-left: 12.6%;
+    padding-top: 1%;
+    text-align: center;
+    background-color: #1F1D1A;
+    color: white;
+    height: 10%;
+    width: 75.65%;
+   
+}
+
+div#j1 {
+    position: absolute;
+    margin-left: 12.5%;
+    background-color: #1F1D1A;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    width: 15%;
+}
+
+div#j2 {
+    
+    position: absolute;
+    margin-left: 27.5%;
+    background-color: #1F1D1A;
+    color: white;
+    text-align: center;
+    z-index: 2;
+    width: 15%;
+}
+
+div#j3 {
+    position: absolute;
+    margin-left: 42.5%;
+    background-color: #1F1D1A;
+    color: white;
+    text-align: center;
+    z-index: 3;
+    width: 15%;
+    
+}
+
+div#j4 {
+    position: absolute;
+    margin-left: 57.5%;
+    background-color: #1F1D1A;
+    color: white;
+    text-align: center;
+    z-index: 4;
+    width: 15%;
+}
+
+div#j5 {
+    position: absolute;
+    margin-left: 72.5%;
+    background-color: #1F1D1A;
+    color: white;
+    text-align: center;
+    z-index: 5;
+    width: 15%;
+}
+
+div#bloc_equipe{
+	background-color: white;
+	color: black;
+	width: 20%;
+}
+
+div#stats_joueurs{
+    position: absolute;
+    color: #F6E497;
+    background-color: #1F1D1A;
+    text-align: center;
+    z-index: 7;
+}
+
+/* Page Scrim */
+
+
+div#scrim { 
+    color: #F6E497;
+    text-align: center; 
+}
+
